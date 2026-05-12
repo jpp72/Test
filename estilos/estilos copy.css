@@ -1,0 +1,62 @@
+#cuerpo {
+    background-color: rgb(236, 220, 200);
+}
+header {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color:brown;
+    font-size: 20px;
+}
+main {
+    text-align: center;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+img {
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+nav{
+   & ul {
+           display: flex;gap: 30px;
+           justify-content: center;
+           list-style: none;
+        }
+
+       & li {
+             font-family:Verdana, Geneva, Tahoma, sans-serif;
+             font-size: 30px;
+             color: white;
+             background-color: rgb(15, 66, 15);
+             padding: 10px 7px;
+             text-shadow: 3px 3px 4px black;
+             border-radius: 10px;
+             box-shadow: rgb(15, 66, 15) 5px 5px 10px ;
+        
+            }
+
+             & a {
+                 color: white;
+                }
+    }
+
+#nosot{
+    display: flex;
+    justify-content: center;
+}    
+
+.nos{
+    display: grid;
+    border: solid black;
+    border-radius: 5px;
+    & h2{
+        display: flex;
+    }
+}
+
+#uno {
+margin: auto;
+
+}
