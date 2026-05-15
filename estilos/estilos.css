@@ -70,18 +70,6 @@ main {
     background-position: center;
 }
 
-.principal {
-    width: 100%;
-    height: 350px;
-}
-
-
-.imagen-p {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-}
 
 .menu2{
     width: 100%;
@@ -93,16 +81,17 @@ main {
            flex-wrap: wrap; 
            gap: 30px;
            list-style: none;
+           background-color: brown;
           }
     .nav2{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
         font-size: 25px;
         color: white;
-        background-color: rgb(226, 183, 118);
+        /*background-color: rgb(226, 183, 118);*/
         padding: 10px 7px;
-        text-shadow: 3px 3px 4px black;
+        /*text-shadow: 3px 3px 4px black;
         border-radius: 10px;
-        box-shadow: rgb(15, 66, 15) 5px 5px 10px ;
+        box-shadow: rgb(15, 66, 15) 5px 5px 10px ;*/
       & a{
            color: rgb(236, 219, 203);
          }   
@@ -110,19 +99,50 @@ main {
  
 }
 
+.principal {
+    width: 100%;
+    height: 350px;
+}
+
+.imagen-p {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.servicios-destacados {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.servicios-destacados h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.servicios-destacados p {
+    font-size: 18px;
+    margin: 0;
+}
+
+
 .nosot{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(18rem,1fr));
     justify-content: center;
     gap: 40px;
-    margin-top: 60px;
+    margin-top: 50px;
     
 
   .nos{
     display: grid; 
     grid-template-rows:1fr;
     border: solid black;
-    padding: 20px;
+    /*padding: 20px;*/
     border-radius: 15px;
     overflow: hidden;
     min-height: 400px;
@@ -171,6 +191,99 @@ main {
     transform: scale(1.05);
                 }
 }
+
+
+.rese{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.resenas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.resena {
+    border: solid 1px black;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(245, 235, 220);
+    min-height: 130px;
+}
+
+.resena p {
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.resena h3 {
+    color: brown;
+    font-size: 16px;
+    margin: 0;
+}
+
+
+.cont{
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    .formulario{
+        display: grid;
+        border: solid 1px black;
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        background-color: rgb(245, 235, 220);
+        min-height: 130px;
+        width: 500px;          /* achicás o agrandás el box desde acá */
+        margin: 0 auto;
+         & input {
+            width: 300px;
+         }
+         & textarea{
+            width: 300px;
+         }
+              }
+    .form1{
+        display: grid;
+        gap: 10px;
+        justify-content: center;
+        
+                         
+        }   
+        
+        & button{
+            margin-top: 20px;
+            
+            
+            
+        }
+    }
+
+
+
+
+
+.footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
 #uno {
 margin: auto;
 

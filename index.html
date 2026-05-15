@@ -17,30 +17,36 @@
         </div>
         <nav class="menu1">
             <ul class="menu11">
-                 <li class="nav1"> <a href="#log">Login</a></li>
+                 <li class="nav1"> <a href="#">Login</a></li>
                  <li class="nav1"> <a href="#reg">Registrate</a></li>
                  <li class="nav1"> <a href="#carr">carrito</a></li>
             </ul>
      </nav>
     </header>
-    
+    <nav class="menu2">
+      <ul class="menu22">
+            <li class="nav2"><a href="#">Inicio</a></li>
+            <li class="nav2"><a href="#servicio">Servicios</a></li>
+            <li class="nav2"><a href="#rese">Reseñas</a></li>
+            <li class="nav2"><a href="#conta">Contacto</a></li>
+        </ul>  
+    </nav>
      
-
     <main class="principal">
         <!--<h1>Compañia Intergral de AVIACION</h1>-->
         <img src="./img/header.jpg" alt="Avion Compania" class="imagen-p">
     </main>    
     
-    <nav class="menu2">
-      <ul class="menu22">
-            <!--<li class="nav2"><a href="#nosotr">Nosotros</a></li>-->
-            <li class="nav2"><a href="#producto">Productos</a></li>
-            <li class="nav2"><a href="#servicio">Servicios</a></li>
-            <li class="nav2"><a href="#cont">Contacto</a></li>
-        </ul>  
-    </nav>
-    <section id="log" class="nosot">
-        <div class="nos">
+       <section class="servicios-destacados" id="servicio">
+            <h2>Servicios destacados</h2>
+            <p>Conocé nuestras principales opciones de transporte aéreo.</p>
+        </section>
+
+
+    
+    <section class="nosot">
+        
+        <div id="servicio" class="nos">
             <img src="./img/cargo-plane.jpg" alt="Transporte logístico">
             <div class="texto-nos">
               <h2>Transporte logistico</h2>
@@ -64,7 +70,49 @@
         </div>
     </section>
 
-    <footer>
+        <section class="rese" id="resen">
+            <h2>Opiniones de nuestros clientes</h2>
+        </section>
+
+
+
+    <section id="rese" class="resenas">
+        <div class="resena">
+            <p>"Muy buen servicio, responsables y puntuales."</p>
+            <h3>- Juan Pérez</h3>
+        </div>
+
+        <div class="resena">
+             <p>"Excelente atención y buena experiencia de viaje."</p>
+             <h3>- María Gómez</h3>
+        </div>
+    </section>
+
+    <section class="cont" id="conta">
+            <h2>Contacto</h2>
+            
+            <form class="formulario">
+            <div class="form1">  
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+            </div>
+            <div class="form1">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="Ingrese su email">
+            </div>
+            <div class="form1"> 
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escriba su consulta"></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+
+
+            </form>
+            
+    </section>
+
+
+    <footer class="footer">
         <small>Derechos reservados Talento Tech</small>
     </footer>
 </body>
