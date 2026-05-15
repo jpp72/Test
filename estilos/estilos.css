@@ -219,6 +219,17 @@ main {
     text-align: center;
     background-color: rgb(245, 235, 220);
     min-height: 130px;
+
+    .video-resena {
+    width: 320px;
+    height: 180px;        /* formato apaisado 16:9 */
+    object-fit: cover;    /* recorta un poco si hace falta */
+    border-radius: 15px;
+    margin-top: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+       }
 }
 
 .resena p {
