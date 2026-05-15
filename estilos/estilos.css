@@ -266,6 +266,7 @@ main {
         }   
         
         & button{
+            justify-self: center;
             margin-top: 20px;
             
             
